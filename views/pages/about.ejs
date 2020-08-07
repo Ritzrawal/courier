@@ -5,10 +5,12 @@
 </head>
 
 <body>
-    <form action="/student-create" method="POST">
+    <form action="/api/auth/signup" method="POST">
         <center>
-            User Name: <input type="text" name="name"> <br>
-            Password: <input type="text" name="email"><br>
+            User Name: <input type="text" name="username"> <br>
+            Password: <input type="password" name="password"><br>
+            Email: <input type="text" name="email"><br>
+            Roles: <input type="text" name="roles"><br>
             <input type="submit" value="Submit">
     </form>
 </body>
