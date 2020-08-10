@@ -24,7 +24,7 @@ let orders= new Schema({
     phonnum:{
         type:Number,
     },
-    adddress:{
+    address:{
         type:String,
     },
     destbranch:{
