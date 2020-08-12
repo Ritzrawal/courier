@@ -12,7 +12,7 @@ router.route("/api/orders").post((req,res,next)=>{
         }else{
             console.log(data)   
             res.json(data)
-        } 
+        }   
     })
 })
 router.route("/api/orders").get((req,res,next)=>{ 

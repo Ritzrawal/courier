@@ -4,7 +4,7 @@ mongoose.Promise = global.Promise;
 const db = {};
 
 db.mongoose = mongoose;
-
+db.newuser=require('./userModel')
 db.user = require('./user');
 db.rtvsent=require("./orderrtvsent");
 db.pickup=require('./pickup');
